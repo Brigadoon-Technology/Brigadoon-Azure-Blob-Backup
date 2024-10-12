@@ -78,8 +78,6 @@ This project provides an **Enterprise Data Backup and Recovery Solution** that s
  - Add the backup logic provided in this repository.
  
  3. Set your Azure Blob Storage connection string in the local.settings.json file:
-
- 4.
     ```json
     {
     "IsEncrypted": false,
