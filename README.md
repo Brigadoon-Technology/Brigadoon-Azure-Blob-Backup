@@ -22,7 +22,7 @@ This project provides an **Enterprise Data Backup and Recovery Solution** that s
 
 1. **Azure Subscription**: An active Azure account is required. If you don’t have one, you can create a free Azure account [here](https://azure.microsoft.com/en-us/free/).
 2. **Azure Blob Storage Account**: You will need to create a storage account in Azure Blob Storage to store backup data.
-3. **Visual Studio IDE* or Visual Studio Code*: We use VS IDE for local development and deployment.
+3. **Visual Studio IDE* or Visual Studio Code**: We use VS IDE for local development and deployment.
 4. **Azure Functions Core Tools**: Install this to run Azure Functions locally.
 
 ## Setup Instructions
