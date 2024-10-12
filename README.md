@@ -81,7 +81,7 @@ This project provides an **Enterprise Data Backup and Recovery Solution** that s
 
  4.
     ```json
-   {
+    {
     "IsEncrypted": false,
     "Values": {
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
@@ -89,7 +89,6 @@ This project provides an **Enterprise Data Backup and Recovery Solution** that s
         "AzureBlobStorageConnectionString": "your_azure_blob_storage_connection_string"
       }
     }
-    ```
 
 ### Step 3: Configure Backup Logic
 
