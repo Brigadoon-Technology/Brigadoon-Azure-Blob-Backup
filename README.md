@@ -71,7 +71,7 @@ This project provides an **Enterprise Data Backup and Recovery Solution** that s
 
 2. Install the Azure Functions Extension in Visual Studio Code by searching for Azure Functions in the Extensions marketplace.
 
-### Step 3: Create Azure Function Locally
+### Step 4: Create Azure Function Locally
  - Create a new Azure Functions project in Visual Studio:
  - Select Timer Trigger as the template.
  - Set the schedule to run daily at 2 AM (0 0 2 * * *).
@@ -88,7 +88,7 @@ This project provides an **Enterprise Data Backup and Recovery Solution** that s
       }
     }
 
-### Step 3: Configure Backup Logic
+### Step 5: Configure Backup Logic
 
 In the `ScheduledBackup.cs` file, you will need to configure the following settings:
 
