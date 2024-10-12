@@ -20,10 +20,10 @@ This project provides an **Enterprise Data Backup and Recovery Solution** that s
 
 ## Prerequisites
 
-1. **Azure Subscription**: An active Azure account is required. If you don’t have one, you can create a free Azure account [here](https://azure.microsoft.com/en-us/free/).
-2. **Azure Blob Storage Account**: You will need to create a storage account in Azure Blob Storage to store backup data.
-3. **Visual Studio IDE* or Visual Studio Code**: We use VS IDE for local development and deployment.
-4. **Azure Functions Core Tools**: Install this to run Azure Functions locally.
+- **Azure Subscription**: An active Azure account is required. If you don’t have one, you can create a free Azure account [here](https://azure.microsoft.com/en-us/free/).
+- **Azure Blob Storage Account**: You will need to create a storage account in Azure Blob Storage to store backup data.
+- **Visual Studio IDE* or Visual Studio Code**: We use VS IDE for local development and deployment.
+- **Azure Functions Core Tools**: Install this to run Azure Functions locally.
 
 ## Setup Instructions
 
@@ -72,12 +72,12 @@ This project provides an **Enterprise Data Backup and Recovery Solution** that s
 2. Install the Azure Functions Extension in Visual Studio Code by searching for Azure Functions in the Extensions marketplace.
 
 ### Step 4: Create Azure Function Locally
- - Create a new Azure Functions project in Visual Studio:
- - Select Timer Trigger as the template.
- - Set the schedule to run daily at 2 AM (0 0 2 * * *).
- - Add the backup logic provided in this repository.
+ 1. Create a new Azure Functions project in Visual Studio:
+ 2. Select Timer Trigger as the template.
+ 3. Set the schedule to run daily at 2 AM (0 0 2 * * *).
+ 4. Add the backup logic provided in this repository.
  
- 3. Set your Azure Blob Storage connection string in the local.settings.json file:
+ 5. Set your Azure Blob Storage connection string in the local.settings.json file:
     ```json
     {
     "IsEncrypted": false,
